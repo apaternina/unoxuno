@@ -1,0 +1,116 @@
+
+
+/* navbar */
+.navbar-default
+{
+	background-color: #FF4656 !important;
+}
+
+/* title */
+.navbar-default .navbar-brand
+{
+  color: #994523 !important;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+{
+  color: #F63457 !important;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a
+{
+  color: #000000 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+  color: #FFFFFF !important;
+  background-color: #FF8A8C !important;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus
+{
+  color: #F63457 !important;
+  background-color: #FFFFFF !important;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus
+{
+  color: #F63457 !important;
+  background-color: #FFFFFF !important;
+}
+
+/* mobile version */
+.navbar-default .navbar-toggle
+{
+  background-color: #FFFFFF !important;
+  border-color: #777777 !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+  background-color: #FF4656 !important;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar
+{
+  background-color: #FFFFFF !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+  background-color: #FF4656 !important;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a
+    {
+      color: #000 !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+    {
+      color: #333 !important;
+    }
+}
+
+
+/* panel */
+.panel-heading
+{
+  color: #FFFFFF !important; 
+  background-color: #FF4656 !important;
+}
+
+.panel-heading a
+{
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+
+
+/* button */
+.btn-danger
+{
+  color: #FFFFFF !important;
+  background-color: #FF4656 !important;
+}
+
+.btn-danger:hover
+{ 
+  color: #FFFFFF !important;
+  background-color: #FF8A8C !important;
+}
+
+
